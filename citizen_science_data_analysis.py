@@ -14,6 +14,9 @@
 # 
 # Query quality_grade=any&identifications=any&swlat=35.327868&swlng=-15.438348&nelat=61.352386&nelng=32.898351&projects[]=city-nature-challenge-2019
 # Columns id, observed_on_string, observed_on, time_observed_at, time_zone, out_of_range, user_id, user_login, created_at, updated_at, quality_grade, license, url, image_url, sound_url, tag_list, description, id_please, num_identification_agreements, num_identification_disagreements, captive_cultivated, oauth_application_id, place_guess, latitude, longitude, positional_accuracy, geoprivacy, taxon_geoprivacy, coordinates_obscured, positioning_method, positioning_device, species_guess, scientific_name, common_name, iconic_taxon_name, taxon_id, taxon_kingdom_name, taxon_phylum_name, taxon_subphylum_name, taxon_superclass_name, taxon_class_name, taxon_subclass_name, taxon_superorder_name, taxon_order_name, taxon_suborder_name, taxon_superfamily_name, taxon_family_name, taxon_subfamily_name, taxon_supertribe_name, taxon_tribe_name, taxon_subtribe_name, taxon_genus_name, taxon_genushybrid_name, taxon_species_name, taxon_hybrid_name, taxon_subspecies_name, taxon_variety_name, taxon_form_name
+# 
+# We will focus in particular on data from UK and in particular on London (51.5074° N, 0.1278° W). 
+# Shape of the data is 62246, 58.
 
 # In[1]:
 
@@ -35,7 +38,7 @@ print(df_cit_sci.shape)
 # In[2]:
 
 
-df_cit_sci.head(20)
+df_cit_sci.head(10)
 
 
 # In[2]:
@@ -45,7 +48,7 @@ df_cit_sci.head(20)
 print(df_cit_sci.columns)
 
 
-# ### Plot participants and findings on a map
+# ### Plot data about participants and findings on a map
 # 
 # From 62246 unique records of users we plot their distribution on a map.
 
@@ -87,10 +90,57 @@ m.scatter(x,y,1,marker='o',color='red')
 plt.show()
 
 
+#  
+#  # Plot points of data on a map with geometry
+# Using osmnx module we want to plot trajectories on a map 
+# 
+# Work in progress on 
+#  1. visualisation of the spatial patterns over time
+#  2. analysis of communities formations and population of the platform over time
+
+# In[3]:
+
+
+
+
+import folium
+
+
+#first we get datapoints from the file
+latitude = df_cit_sci.latitude.values
+longitude = df_cit_sci.longitude.values
+
+#then we zip two arrays of lat, lon of datapoints
+latlon = list(zip(latitude, longitude))
+#print(latlon)
+
+
 # In[ ]:
 
 
-# work in progress on 
-# visualisation of the spatial patterns over time
-# analysis of communities formations and population of the platform over time
+
+#We put map to show first location of London latitude 51.5074° N, longitude 0.1278° W
+
+mapit = folium.Map( location=[51.5074 , 0.1278]) #, zoom_start=6 
+for coord in latlon:
+    folium.Marker( location=[ coord[0], coord[1] ], fill_color='#43d9de', radius=8 ).add_to( mapit )
+mapit
+
+
+#draw connecting line between locations written in latlon file
+
+'''
+TODO:
+to add information to nodes of the map with added info about cities; 
+plot curved ages multigraph
+'''
+
+SAF=folium.PolyLine(locations=latlon,weight=5,color = 'red')
+mapit.add_child(SAF)
+
+
+# In[ ]:
+
+
+
 
