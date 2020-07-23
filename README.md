@@ -14,3 +14,9 @@ It's interesting that it is similar for SF and LA and the pattern that they have
 
 RQ4 (a) Are their differences in data collection pattern in each year and between years? Are there also emerging pattern over time in a location? 
 (b) Are there also emerging pattern over time in a location? 
+
+# Pariticipate 
+
+The project is now discussed together with CorrelAid X Paris 
+https://github.com/correlaid-paris/ 
+Welcome to join!
