@@ -2,6 +2,7 @@
 Here we do data analysis for citizen science projects with the open data https://www.inaturalist.org/projects/city-nature-challenge-2019
 The project is in progress and discussions between @Liubov Tupikina, Muki Haklay, CRI.
 
+Preliminary notebook for analysis are "citizen_science_analysis"
 
 # Reseach Questions
 
