@@ -15,10 +15,15 @@ RQ3: If we are looking at City Nature Challenge data - we have now data for San 
 RQ4: (a) Are there differences in data collection patterns in each year and between years? Are there also emerging pattern over time in a location? (b) Are there also emerging pattern over time in a location?
 
 
+Some of the problems for citizen science community are: heterogeneity of collected data, missing data, non-controlled growth of community of observers.
+
 # Pariticipate 
 
 The project is now discussed together with CorrelAid X Paris 
 https://github.com/correlaid-paris/ 
+
+Contact person: Liubov Tupikina (CRI)
+
 Welcome to join!
 
 
