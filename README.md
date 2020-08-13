@@ -14,15 +14,17 @@ RQ3: If we are looking at City Nature Challenge data - we have now data for San 
 
 RQ4: (a) Are there differences in data collection patterns in each year and between years? Are there also emerging pattern over time in a location? (b) Are there also emerging pattern over time in a location?
 
+RQ5: To what degree the heavy contributors influence the total pattern and distribution of data? Is there any observed impact from major contributors (e.g. someone who is heavy contributors dropping off because they can't keep up with the competition). There is also the question about repeat recruitment - are the pattern of one timers vs people who come back stay the same from year to year? Are there any patterns or places that are behaving differently in terms of patterns of contribution? 
+
 
 Some of the problems for citizen science community are: heterogeneity of collected data, missing data, non-controlled growth of community of observers.
 
 # Pariticipate 
 
-The project is now discussed together with CorrelAid X Paris 
+The project is now discussed together with CorrelAid X Paris x CRI
 https://github.com/correlaid-paris/ 
 
-Contact person: Liubov Tupikina (CRI)
+Contact person: Liubov Tupikina (CRI), Muki Haklay, Correlaid.
 
 Welcome to join!
 
