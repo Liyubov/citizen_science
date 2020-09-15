@@ -16,6 +16,10 @@ RQ4: (a) Are there differences in data collection patterns in each year and betw
 
 RQ5: To what degree the heavy contributors influence the total pattern and distribution of data? Is there any observed impact from major contributors (e.g. someone who is heavy contributors dropping off because they can't keep up with the competition). There is also the question about repeat recruitment - are the pattern of one timers vs people who come back stay the same from year to year? Are there any patterns or places that are behaving differently in terms of patterns of contribution? 
 
+RQ6: Since there are specific patterns of participation for different people from various countries we 
+would like to understand the reason of power-law of participation (some participate a lot, many participate only little).
+We would like to understand how this pattern emerge dynamically (M.Pocco).
+
 
 Some of the problems for citizen science community are: heterogeneity of collected data, missing data, non-controlled growth of community of observers.
 
@@ -24,7 +28,7 @@ Some of the problems for citizen science community are: heterogeneity of collect
 The project is now discussed together with CorrelAid X Paris x CRI
 https://github.com/correlaid-paris/ 
 
-Contact person: Liubov Tupikina (CRI), Muki Haklay, Correlaid.
+Contact person: Liubov Tupikina (CRI), Muki Haklay (UCL), Frie (Correlaid).
 
 Welcome to join!
 
