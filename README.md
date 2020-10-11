@@ -23,12 +23,12 @@ We would like to understand how this pattern emerge dynamically (M.Pocco).
 
 Some of the problems for citizen science community are: heterogeneity of collected data, missing data, non-controlled growth of community of observers.
 
-# Pariticipate 
+# Participate 
 
 The project is now discussed together with CorrelAid X Paris x CRI
 https://github.com/correlaid-paris/ 
 
-Contact person: Liubov Tupikina (CRI), Muki Haklay (UCL), Frie (Correlaid).
+Contact person: Liubov Tupikina (CRI, Bell labs), Muki Haklay (UCL), Frie (Correlaid).
 
 Welcome to join!
 
