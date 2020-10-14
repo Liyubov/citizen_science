@@ -2,7 +2,7 @@
 Here we do data analysis for citizen science projects with the open data https://www.inaturalist.org/projects/city-nature-challenge-2019
 The project is in progress and discussions between @Liubov Tupikina, Muki Haklay, CRI.
 
-Preliminary notebook for analysis are "citizen_science_analysis"
+The project is in process. Preliminary notebook for analysis is "citizen_science_analysis". 
 
 # Reseach Questions (RQs)
 RQ1: Can we identify macroscopic laws of citizen science projects? The main goal of the project to identify short-term and long-term dynamics in citizen science projects.
@@ -30,7 +30,6 @@ https://github.com/correlaid-paris/
 
 Contact person: Liubov Tupikina (CRI, Bell labs), Muki Haklay (UCL), Frie (Correlaid).
 
-Welcome to join!
 
 
 
