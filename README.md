@@ -22,6 +22,8 @@ RQ6: Since there are specific patterns of participation for different people fro
 would like to understand the reason of power-law of participation (some participate a lot, many participate only little).
 We would like to understand how this pattern emerge dynamically (M.Pocco).
 
+RQ7: What is the dfference between citizen science projects evolution in different cities around the globe? London vs. San Francisco? What are parameters which may lead to differences?
+
 
 Some of the problems for citizen science community are: heterogeneity of collected data, missing data, non-controlled growth of community of observers.
 
